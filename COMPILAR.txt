@@ -1,0 +1,18 @@
+Para compilar o projeto
+Instale a IDE Falcon C++ disponibilizada no link abaixo
+http://falconcpp.sourceforge.net/downloads/
+
+Após instalada clique em Ferramentas -> Pacotes
+Quando o gerenciador de pacotes iniciar clique em 'Instalar'
+e digite SDL
+marque a caixa do pacote SDL 1.2.15 e clique em 'Instalar 1 pacote...'
+abra o projeto LinePaint.fpj e pressione F9
+
+para compilar no linux
+instale o C++ e a biblioteca SDL com o seguinte comando: 
+> sudo apt-get install g++ libsdl1.2-dev
+entre na pasta pelo terminal e digite:
+> make
+
+O projeto usa uma classe de manipulação de janela disponibilizada em:
+https://code.google.com/p/opengl-base-class/
